@@ -1,3 +1,4 @@
+DB: postgresql
 Swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 1. **POST**: New User
