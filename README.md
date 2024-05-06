@@ -30,3 +30,6 @@ Swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swa
 
 3. **GET**: All Users
     - Endpoint: `http://localhost:8080/api/users/list-all`
+  
+4. **DELETE**: Delete User by ID
+    - Endpoint: `http://localhost:8080/api/users/delete/{id}`
