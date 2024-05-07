@@ -1,4 +1,9 @@
 - DB: postgresql
+- spring.datasource.url=jdbc:postgresql://localhost:5432/rest_api
+- spring.datasource.username=postgres
+- spring.datasource.password=root
+- spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+- spring.jpa.hibernate.ddl-auto=update
 - Swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 1. **POST**: New User
