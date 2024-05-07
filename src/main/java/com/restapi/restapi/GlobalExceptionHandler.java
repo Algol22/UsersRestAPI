@@ -11,6 +11,6 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<String> handleValidationExceptions(MethodArgumentNotValidException ex) {
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getBindingResult().getAllErrors().get(0).getDefaultMessage());
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Validation exception. " + ex.getBindingResult().getAllErrors().get(0).getDefaultMessage());
     }
 }
